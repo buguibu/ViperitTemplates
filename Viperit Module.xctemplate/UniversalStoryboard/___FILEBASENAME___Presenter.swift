@@ -12,16 +12,15 @@ import Viperit
 final class ___FILEBASENAMEASIDENTIFIER___Presenter: Presenter {
 }
 
-
 // MARK: - VIPER COMPONENTS API (Auto-generated code)
 private extension ___FILEBASENAMEASIDENTIFIER___Presenter {
-    var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface {
-        return _view as! ___FILEBASENAMEASIDENTIFIER___ViewInterface
+    var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface? {
+        return proxyView as? ___FILEBASENAMEASIDENTIFIER___ViewInterface
     }
-    var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor {
-        return _interactor as! ___FILEBASENAMEASIDENTIFIER___Interactor
+    var interactor: ___FILEBASENAMEASIDENTIFIER___Interactor? {
+        return proxyInteractor as? ___FILEBASENAMEASIDENTIFIER___Interactor
     }
-    var router: ___FILEBASENAMEASIDENTIFIER___Router {
-        return _router as! ___FILEBASENAMEASIDENTIFIER___Router
+    var router: ___FILEBASENAMEASIDENTIFIER___Router? {
+        return proxyRouter as? ___FILEBASENAMEASIDENTIFIER___Router
     }
 }

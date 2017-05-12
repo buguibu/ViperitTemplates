@@ -19,10 +19,10 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewPad: ___FILEBASENAMEASIDENTIFIER___V
 
 // MARK: - VIPER COMPONENTS API (Auto-generated code)
 private extension ___FILEBASENAMEASIDENTIFIER___ViewPad {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
-        return _presenter as! ___FILEBASENAMEASIDENTIFIER___Presenter
+    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? {
+        return proxyPresenter as? ___FILEBASENAMEASIDENTIFIER___Presenter
     }
-    var displayData: ___FILEBASENAMEASIDENTIFIER___DisplayData {
-        return _displayData as! ___FILEBASENAMEASIDENTIFIER___DisplayData
+    var displayData: ___FILEBASENAMEASIDENTIFIER___DisplayData? {
+        return proxyDisplayData as? ___FILEBASENAMEASIDENTIFIER___DisplayData
     }
 }

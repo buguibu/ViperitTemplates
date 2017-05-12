@@ -23,10 +23,10 @@ extension ___FILEBASENAMEASIDENTIFIER___View: ___FILEBASENAMEASIDENTIFIER___View
 
 // MARK: - VIPER COMPONENTS API (Auto-generated code)
 private extension ___FILEBASENAMEASIDENTIFIER___View {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
-        return _presenter as! ___FILEBASENAMEASIDENTIFIER___Presenter
+    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? {
+        return proxyPresenter as? ___FILEBASENAMEASIDENTIFIER___Presenter
     }
-    var displayData: ___FILEBASENAMEASIDENTIFIER___DisplayData {
-        return _displayData as! ___FILEBASENAMEASIDENTIFIER___DisplayData
+    var displayData: ___FILEBASENAMEASIDENTIFIER___DisplayData? {
+        return proxyDisplayData as? ___FILEBASENAMEASIDENTIFIER___DisplayData
     }
 }

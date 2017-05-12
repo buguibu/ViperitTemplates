@@ -14,7 +14,7 @@ final class ___FILEBASENAMEASIDENTIFIER___Router: Router {
 
 // MARK: - VIPER COMPONENTS API (Auto-generated code)
 private extension ___FILEBASENAMEASIDENTIFIER___Router {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
-        return _presenter as! ___FILEBASENAMEASIDENTIFIER___Presenter
+    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? {
+        return proxyPresenter as? ___FILEBASENAMEASIDENTIFIER___Presenter
     }
 }
