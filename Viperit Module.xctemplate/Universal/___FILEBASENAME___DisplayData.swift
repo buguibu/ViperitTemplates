@@ -12,3 +12,7 @@ import Viperit
 final class ___FILEBASENAMEASIDENTIFIER___DisplayData: DisplayData {
 
 }
+
+// MARK: - ___FILEBASENAMEASIDENTIFIER___ module required interface
+extension ___FILEBASENAMEASIDENTIFIER___DisplayData: ___FILEBASENAMEASIDENTIFIER___DisplayDataInterface {
+}

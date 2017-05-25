@@ -9,15 +9,11 @@
 import UIKit
 import Viperit
 
-// MARK: - Public Interface Protocol
-protocol ___FILEBASENAMEASIDENTIFIER___ViewInterface {
-}
-
 // MARK: ___FILEBASENAMEASIDENTIFIER___ View
 final class ___FILEBASENAMEASIDENTIFIER___View: UserInterface {
 }
 
-// MARK: - Public interface
+// MARK: - ___FILEBASENAMEASIDENTIFIER___ module required interface
 extension ___FILEBASENAMEASIDENTIFIER___View: ___FILEBASENAMEASIDENTIFIER___ViewInterface {
 }
 

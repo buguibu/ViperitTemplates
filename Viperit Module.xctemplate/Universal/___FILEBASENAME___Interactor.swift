@@ -12,6 +12,10 @@ import Viperit
 final class ___FILEBASENAMEASIDENTIFIER___Interactor: Interactor {
 }
 
+// MARK: - ___FILEBASENAMEASIDENTIFIER___ module required interface
+extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInterface {
+}
+
 // MARK: - VIPER COMPONENTS API (Auto-generated code)
 private extension ___FILEBASENAMEASIDENTIFIER___Interactor {
     var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? {

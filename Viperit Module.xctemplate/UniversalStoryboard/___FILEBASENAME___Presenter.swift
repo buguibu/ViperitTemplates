@@ -12,6 +12,10 @@ import Viperit
 final class ___FILEBASENAMEASIDENTIFIER___Presenter: Presenter {
 }
 
+// MARK: - ___FILEBASENAMEASIDENTIFIER___ module required interface
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInterface {
+}
+
 // MARK: - VIPER COMPONENTS API (Auto-generated code)
 private extension ___FILEBASENAMEASIDENTIFIER___Presenter {
     var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface? {
